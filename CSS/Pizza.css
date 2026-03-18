@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* NAV & CONTAINER */
+
+.nav-bar {
+    width: 100%;
+    height: 45px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+.container1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+}
+.container2 {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+
+/* LINKS(NAV & CONTAINER1) */
+
+.link1 {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+ 
+
+/* IMAGENS(NAV & CONTAINER1) */
+
+.imgpizza {
+
+    height: 35px;
+    width: auto;
+    display: block;
+}
+.imgcarrinho {
+    width: 35px;
+    height: auto;
+    display: block;
+}
+
+
+/* LISTAS */
+
+li {
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+/* BOTÃO(NAV & CONTAINER1) */
+
+.ButtPedido {
+    background-color: rgb(245, 168, 168);
+    border-radius: 20px;
+    border: none;
+    width: 115px;
+    height: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    
+}
+
+.ButtPedido-link {
+    text-decoration: none;
+    transition: all 1;
+    display: inline-block;
+    color: rgb(46, 45, 45);
+}
+
+/* .ButtPedido-link:hover {
+
+} */
+
+.ButtPedido:hover {
+    background-color: rgb(237, 104, 104);
+    transform: scale(0.95);
+    transition: transform 0.3 ease;
+
+}
+
+.ButtPedido:active{
+    transform: scale(1.1);
+    transition: transform 0.3 ease;
+}
